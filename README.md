@@ -28,7 +28,7 @@ Bot for the messanger Zulip.
 
 Download file *** <strong>zilprc</strong> ***. This file will store all the data for managing the bot.
 
-### Example:
+### 📒 ️️Example:
 <pre>
 [api]
 email=email@zulip.com
@@ -40,7 +40,7 @@ site=https://zulip.com
 
 # Function:
 
-### Send Message
+### 💬 Send Message
 <pre>
 send_msg(sending_chat, msg_topic, msg_text)
 </pre>
@@ -52,7 +52,7 @@ send_msg(sending_chat, msg_topic, msg_text)
 
 <br/>
 
-### Get Message
+### 📨 Get Message
 <pre>
 get_msg(chat)
 </pre>
@@ -62,7 +62,7 @@ get_msg(chat)
 
 <br/>
 
-### Edit Message 
+### 📝 Edit Message 
 <pre>
 edit_msg(message_id)
 </pre>
@@ -72,7 +72,7 @@ edit_msg(message_id)
 
 <br/>
 
-### Delete Message 
+### ❌ Delete Message 
 <pre>
 del_msg(message_id)
 </pre>
@@ -82,7 +82,7 @@ del_msg(message_id)
 
 <br/>
 
-### Render Message to HTML 
+### ♻️ Render Message to HTML 
 <pre>
 render_msg(msg_text)
 </pre>
