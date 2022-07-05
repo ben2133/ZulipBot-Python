@@ -1,17 +1,30 @@
 # ZulipBot-Python
 
+<div id="header" align="left">
+  <img src="https://play-lh.googleusercontent.com/JEo4Q5Ed3TIJRxL8A-moTh0HoYF74Hmg4WFISopAach2CjcpgSiTDQXU2d6JnxNz0g" width="100"/>
+</div>
+
 Bot for the messanger Zulip.
 
 > <a href="https://zulip.com/api/">Link</a> <strong><=</strong> This link to the official documentation API
 
-### <strong>Functin:</strong>
+<br/>
+
+### <strong>Functin list:</strong>
 * Send Message
 * Getting Message
 * Delete the Message
 * Edit the Message
 * Render Message text to HTML
 
+<br/>
+
 ## Start
+
+<div id="header" align="left">
+  <img src="https://preview.redd.it/hewrzv1fi8k81.jpg?width=640&crop=smart&auto=webp&s=5ee82bdd668b2b54eab3a842b5960ea570960690" width="100"/>
+</div>
+
 
 Download file *** <strong>zilprc</strong> ***. This file will store all the data for managing the bot.
 
@@ -22,6 +35,8 @@ email=email@zulip.com
 key=Udsdk32JKJKmdsksdjfkjkUksfI9
 site=https://zulip.com
 </pre>
+
+<br/>
 
 # Function:
 
@@ -35,6 +50,7 @@ send_msg(sending_chat, msg_topic, msg_text)
 * msg_topic => Chat topic 
 * msg_text => Message text
 
+<br/>
 
 ### Get Message
 <pre>
@@ -44,6 +60,7 @@ get_msg(chat)
 > Gets 1 parametrs:
 * chat => Name want chat from which you will receive
 
+<br/>
 
 ### Edit Message 
 <pre>
@@ -53,6 +70,8 @@ edit_msg(message_id)
 > Gets 1 parametrs:
 * message_id => ID message which need to edit
 
+<br/>
+
 ### Delete Message 
 <pre>
 del_msg(message_id)
@@ -60,6 +79,8 @@ del_msg(message_id)
 
 > Gets 1 parametrs:
 * message_id => ID message which need to delete
+
+<br/>
 
 ### Render Message to HTML 
 <pre>
